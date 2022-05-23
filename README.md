@@ -79,7 +79,7 @@ endmodule
 ```
 ### DOWN COUNTER
 ```
-module uc(input clk,input reset,output[3:0]counter);
+module dc(input clk,input reset,output[3:0]counter);
 reg[3:0]counter_down;
 always@(posedge clk or posedge reset)
 begin
